@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(135deg, #152331 0%, #000000 100%);
+  background-attachment: fixed;
+}
+
+/* Prevent CLS by ensuring images don't shift layout */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer: contain layout to reduce CLS from reflow */
+footer {
+  contain: layout;
+}
+
+/* Prevent font-related layout shifts */
+* {
+  font-family: inherit;
+}
+
+
+/* main: no forced min-height - prevents footer from shifting when main expands late */
+
+
+
+.download-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+}
+
+.download-btn:hover .download-icon {
+  animation: bounce 0.5s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background: rgba(10, 16, 41, 0.8);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Prevent layout shift by ensuring content takes up space */
+.stars-bg {
+  pointer-events: none;
+}
+
+/* Glassmorphism — header & footer */
+.glass {
+  background: rgba(21, 35, 49, 0.35) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-color: rgba(255, 255, 255, 0.07) !important;
+}
+
+/* Section container gradient (reversed bg gradient) */
+.section-card {
+  background: linear-gradient(135deg, #000000 0%, #152331 100%);
+}
+
+/* Inner card / list item background */
+.inner-card {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Orbital badge animations */
+@keyframes orbitSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Counter-spin keeps badge text upright while container rotates */
+@keyframes orbitCounter {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-360deg); }
+}
+
+/* Ensure orbit container spins around its own centre */
+.orbit-badge-card,
+[style*="orbitSpin"] {
+  transform-origin: center center;
+}
+
+/* Orbital badge card style */
+.orbit-badge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px 14px;
+  min-width: 80px;
+  text-align: center;
+  background: rgba(15, 22, 36, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 193, 7, 0.35);
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 12px rgba(255, 193, 7, 0.1);
+  white-space: nowrap;
+}
+.orbit-badge-value {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.orbit-badge-label {
+  color: #9ca3af;
+  font-size: 0.65rem;
+  line-height: 1.2;
+} 

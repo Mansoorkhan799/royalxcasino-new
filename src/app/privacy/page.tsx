@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Privacy Policy</h1>
-            <p className="text-lg text-gray-400">Last Updated: January 3, 2026</p>
+            <p className="text-lg text-gray-400">Last Updated: April 17, 2026</p>
           </div>
           
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">

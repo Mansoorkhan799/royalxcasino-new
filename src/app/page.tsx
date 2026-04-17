@@ -292,7 +292,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <p className="text-sm text-gray-400 italic">Reviewed by: Mobile Gaming Desk | Last Updated: 2026</p>
+            <p className="text-sm text-gray-400 italic">Reviewed by: Mobile Gaming Desk | Last Updated: April 17, 2026</p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
               <Link href="/" className="text-accent hover:underline">Royal X Casino</Link> is a card gaming app where you can play simple games and earn real money with daily rewards. It offers fast withdrawals, smooth gameplay, and 24/7 support for a secure and enjoyable experience.

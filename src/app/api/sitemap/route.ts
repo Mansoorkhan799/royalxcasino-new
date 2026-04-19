@@ -37,13 +37,13 @@ export async function GET() {
       ],
     },
     {
-      url: '/register',
+      url: '/how-to-register-on-royal-x-casino',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.85,
     },
     {
-      url: '/login',
+      url: '/how-to-login-on-royal-x-casino',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.85,

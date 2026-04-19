@@ -41,10 +41,10 @@ export default function Header() {
           <Link href="/" className={navLinkClass(pathname, '/')} aria-current={pathname === '/' ? 'page' : undefined}>
             Home
           </Link>
-          <Link href="/register" className={navLinkClass(pathname, '/register')} aria-current={pathname === '/register' ? 'page' : undefined}>
+          <Link href="/how-to-register-on-royal-x-casino" className={navLinkClass(pathname, '/how-to-register-on-royal-x-casino')} aria-current={pathname === '/how-to-register-on-royal-x-casino' ? 'page' : undefined}>
             Register
           </Link>
-          <Link href="/login" className={navLinkClass(pathname, '/login')} aria-current={pathname === '/login' ? 'page' : undefined}>
+          <Link href="/how-to-login-on-royal-x-casino" className={navLinkClass(pathname, '/how-to-login-on-royal-x-casino')} aria-current={pathname === '/how-to-login-on-royal-x-casino' ? 'page' : undefined}>
             Login
           </Link>
           <Link href="/deposit-money-in-royal-x-casino" className={navLinkClass(pathname, '/deposit-money-in-royal-x-casino')} aria-current={pathname === '/deposit-money-in-royal-x-casino' ? 'page' : undefined}>

@@ -41,12 +41,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/register" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/how-to-register-on-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Register
                 </Link>
               </li>
               <li>
-                <Link href="/login" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/how-to-login-on-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Login
                 </Link>
               </li>
@@ -78,12 +78,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/register" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/how-to-register-on-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Create Account
                 </Link>
               </li>
               <li>
-                <Link href="/login" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/how-to-login-on-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Account Login
                 </Link>
               </li>

@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://royalxcasinopakistan.pk/login',
+    canonical: 'https://royalxcasinopakistan.pk/how-to-login-on-royal-x-casino',
   },
   openGraph: {
     title: 'Login – Sign In to Your Royal X Casino Account 2026',
     description:
       'Sign in to Royal X Casino and continue playing. Access your games, balance, and cash withdrawals instantly.',
-    url: 'https://royalxcasinopakistan.pk/login',
+    url: 'https://royalxcasinopakistan.pk/how-to-login-on-royal-x-casino',
     siteName: 'Royal X Casino',
     locale: 'en_US',
     type: 'website',
@@ -45,7 +45,7 @@ export default function LoginPage() {
     name: 'Login – Sign In to Your Royal X Casino Account',
     description:
       'Sign in to your Royal X Casino account to play card games and manage your earnings in Pakistan.',
-    url: 'https://royalxcasinopakistan.pk/login',
+    url: 'https://royalxcasinopakistan.pk/how-to-login-on-royal-x-casino',
     author: {
       '@type': 'Organization',
       name: 'Royal X Casino',
@@ -67,7 +67,7 @@ export default function LoginPage() {
             '@type': 'BreadcrumbList',
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://royalxcasinopakistan.pk' },
-              { '@type': 'ListItem', position: 2, name: 'Login', item: 'https://royalxcasinopakistan.pk/login' },
+              { '@type': 'ListItem', position: 2, name: 'Login', item: 'https://royalxcasinopakistan.pk/how-to-login-on-royal-x-casino' },
             ],
           }),
         }}

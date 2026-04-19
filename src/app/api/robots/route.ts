@@ -36,8 +36,8 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages (Royal X Casino — live routes only)
-Allow: /register
-Allow: /login
+Allow: /how-to-register-on-royal-x-casino
+Allow: /how-to-login-on-royal-x-casino
 Allow: /deposit-money-in-royal-x-casino
 Allow: /withdraw-money-from-royal-x-casino
 Allow: /royal-x-casino-for-pc

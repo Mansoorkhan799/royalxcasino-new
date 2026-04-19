@@ -43,6 +43,16 @@ const nextConfig = {
         destination: '/contact-us-royal-x-casino-pakistan',
         permanent: true,
       },
+      {
+        source: '/register',
+        destination: '/how-to-register-on-royal-x-casino',
+        permanent: true,
+      },
+      {
+        source: '/login',
+        destination: '/how-to-login-on-royal-x-casino',
+        permanent: true,
+      },
       // Malformed URLs Google crawled — send them home
       {
         source: '/\\$',

@@ -112,8 +112,8 @@ export default function MobileNavigation() {
           
           <nav className="flex flex-col p-4" aria-label="Main">
             <Link href="/" className={mobileNavClass(pathname, '/')} onClick={closeMenu} aria-current={pathname === '/' ? 'page' : undefined}>Home</Link>
-            <Link href="/register" className={mobileNavClass(pathname, '/register')} onClick={closeMenu} aria-current={pathname === '/register' ? 'page' : undefined}>Register</Link>
-            <Link href="/login" className={mobileNavClass(pathname, '/login')} onClick={closeMenu} aria-current={pathname === '/login' ? 'page' : undefined}>Login</Link>
+            <Link href="/how-to-register-on-royal-x-casino" className={mobileNavClass(pathname, '/how-to-register-on-royal-x-casino')} onClick={closeMenu} aria-current={pathname === '/how-to-register-on-royal-x-casino' ? 'page' : undefined}>Register</Link>
+            <Link href="/how-to-login-on-royal-x-casino" className={mobileNavClass(pathname, '/how-to-login-on-royal-x-casino')} onClick={closeMenu} aria-current={pathname === '/how-to-login-on-royal-x-casino' ? 'page' : undefined}>Login</Link>
             <Link href="/deposit-money-in-royal-x-casino" className={mobileNavClass(pathname, '/deposit-money-in-royal-x-casino')} onClick={closeMenu} aria-current={pathname === '/deposit-money-in-royal-x-casino' ? 'page' : undefined}>Deposit Guide</Link>
             <Link href="/withdraw-money-from-royal-x-casino" className={mobileNavClass(pathname, '/withdraw-money-from-royal-x-casino')} onClick={closeMenu} aria-current={pathname === '/withdraw-money-from-royal-x-casino' ? 'page' : undefined}>Withdraw Guide</Link>
             <Link href="/royal-x-casino-for-pc" className={mobileNavClass(pathname, '/royal-x-casino-for-pc')} onClick={closeMenu} aria-current={pathname === '/royal-x-casino-for-pc' ? 'page' : undefined}>For PC</Link>

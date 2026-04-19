@@ -49,13 +49,13 @@ export async function GET() {
       priority: 0.85,
     },
     {
-      url: '/deposit-money-in-royal-x-casino',
+      url: '/how-to-deposit-money-from-royal-x-casino',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
     },
     {
-      url: '/withdraw-money-from-royal-x-casino',
+      url: '/how-to-withdraw-money-from-royal-x-casino',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,

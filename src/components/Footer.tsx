@@ -68,12 +68,12 @@ export default function Footer() {
             <h2 className="text-lg font-semibold mb-4 text-accent">Resources</h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/deposit-money-in-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/how-to-deposit-money-from-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Deposit Guide
                 </Link>
               </li>
               <li>
-                <Link href="/withdraw-money-from-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/how-to-withdraw-money-from-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Withdraw Guide
                 </Link>
               </li>

@@ -47,10 +47,10 @@ export default function Header() {
           <Link href="/how-to-login-on-royal-x-casino" className={navLinkClass(pathname, '/how-to-login-on-royal-x-casino')} aria-current={pathname === '/how-to-login-on-royal-x-casino' ? 'page' : undefined}>
             Login
           </Link>
-          <Link href="/deposit-money-in-royal-x-casino" className={navLinkClass(pathname, '/deposit-money-in-royal-x-casino')} aria-current={pathname === '/deposit-money-in-royal-x-casino' ? 'page' : undefined}>
+          <Link href="/how-to-deposit-money-from-royal-x-casino" className={navLinkClass(pathname, '/how-to-deposit-money-from-royal-x-casino')} aria-current={pathname === '/how-to-deposit-money-from-royal-x-casino' ? 'page' : undefined}>
             Deposit
           </Link>
-          <Link href="/withdraw-money-from-royal-x-casino" className={navLinkClass(pathname, '/withdraw-money-from-royal-x-casino')} aria-current={pathname === '/withdraw-money-from-royal-x-casino' ? 'page' : undefined}>
+          <Link href="/how-to-withdraw-money-from-royal-x-casino" className={navLinkClass(pathname, '/how-to-withdraw-money-from-royal-x-casino')} aria-current={pathname === '/how-to-withdraw-money-from-royal-x-casino' ? 'page' : undefined}>
             Withdraw
           </Link>
           <Link href="/royal-x-casino-for-pc" className={navLinkClass(pathname, '/royal-x-casino-for-pc')} aria-current={pathname === '/royal-x-casino-for-pc' ? 'page' : undefined}>

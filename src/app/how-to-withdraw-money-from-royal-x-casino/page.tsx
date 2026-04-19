@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Withdraw Money from Royal X Casino? | Fast & Secure Withdrawal Guide',
     description: 'Step-by-step guide to withdraw money from Royal X Casino using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
-    url: 'https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino',
+    url: 'https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino',
     siteName: 'Royal X Casino',
     type: 'article',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: 'Learn how to withdraw money from Royal X Casino using our complete withdrawal guide.',
   },
   alternates: {
-    canonical: 'https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino',
+    canonical: 'https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino',
   },
 };
 
@@ -65,7 +65,7 @@ export default function WithdrawMoneyPage() {
                 <Link href="/" className="text-accent hover:underline font-semibold">Royal X Casino</Link> is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. If you haven't already, <a href="https://royalxcasinopakistan.pk" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download Royal X Casino</a> to get started. Many players play it to earn extra income. Once you win money, the first step is to cash out your funds securely.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                New players can feel confused when they try to withdraw cash from Royal X Casino. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. Before withdrawing, make sure you have <Link href="/deposit-money-in-royal-x-casino" className="text-accent hover:underline font-semibold">deposited money in Royal X Casino</Link> to start playing and winning.
+                New players can feel confused when they try to withdraw cash from Royal X Casino. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. Before withdrawing, make sure you have <Link href="/how-to-deposit-money-from-royal-x-casino" className="text-accent hover:underline font-semibold">deposited money in Royal X Casino</Link> to start playing and winning.
               </p>
             </div>
           </div>
@@ -318,10 +318,10 @@ export default function WithdrawMoneyPage() {
             "@graph": [
               {
                 "@type": "Article",
-                "@id": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino#article",
+                "@id": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino#article",
                 "headline": "How to Withdraw Money from Royal X Casino?",
                 "description": "Step-by-step guide to withdraw money from Royal X Casino using JazzCash, EasyPaisa, and Bank Card. Learn the complete withdrawal process for secure cash out.",
-                "url": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino",
+                "url": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino",
                 "articleBody": "Royal X Casino is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. You can withdraw funds to JazzCash, EasyPaisa, or Bank Card. For Bank Card, choose your bank, enter account number, user name, and email. Maximum withdrawal via Bank Card is PKR 20,000. The process takes 9 steps: open app, click wallet, choose withdraw, type amount, select payment method, enter details, confirm, wait for processing, then check your account.",
                 "author": { "@type": "Organization", "name": "Royal X Casino", "url": "https://royalxcasinopakistan.pk" },
                 "publisher": {
@@ -336,20 +336,20 @@ export default function WithdrawMoneyPage() {
                 },
                 "datePublished": "2026-01-01",
                 "dateModified": "2026-03-13",
-                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino" },
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino" },
                 "inLanguage": "en-US",
                 "hasPart": {
                   "@type": "HowTo",
-                  "@id": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino#howto",
+                  "@id": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino#howto",
                   "name": "Withdraw Money from Royal X Casino"
                 }
               },
               {
                 "@type": "HowTo",
-                "@id": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino#howto",
+                "@id": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino#howto",
                 "name": "How to Withdraw Money from Royal X Casino",
                 "description": "Step-by-step guide to withdraw money from Royal X Casino using JazzCash, EasyPaisa, and Bank Card.",
-                "url": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino",
+                "url": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino",
                 "totalTime": "PT5M",
                 "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
                 "step": [
@@ -366,7 +366,7 @@ export default function WithdrawMoneyPage() {
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino#faq",
+                "@id": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino#faq",
                 "mainEntity": [
                   { "@type": "Question", "name": "What is the minimum amount that we can withdraw from the Royal X Casino Game?", "acceptedAnswer": { "@type": "Answer", "text": "You can easily withdraw a minimum of Rs 100 from your Royal X Casino account, as it supports withdrawals of that amount." } },
                   { "@type": "Question", "name": "How long does Royal X Casino take to send withdrawals?", "acceptedAnswer": { "@type": "Answer", "text": "Royal X Casino usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues." } },
@@ -387,7 +387,7 @@ export default function WithdrawMoneyPage() {
             "@type": "BreadcrumbList",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://royalxcasinopakistan.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Withdraw Money from Royal X Casino", "item": "https://royalxcasinopakistan.pk/withdraw-money-from-royal-x-casino" }
+              { "@type": "ListItem", "position": 2, "name": "Withdraw Money from Royal X Casino", "item": "https://royalxcasinopakistan.pk/how-to-withdraw-money-from-royal-x-casino" }
             ]
           })
         }}

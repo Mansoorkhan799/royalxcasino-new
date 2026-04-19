@@ -33,7 +33,7 @@ Disallow: /admin/
 # Priority pages (Royal X Casino — live routes only)
 Allow: /how-to-register-on-royal-x-casino
 Allow: /how-to-login-on-royal-x-casino
-Allow: /how-to-deposit-money-from-royal-x-casino
+Allow: /how-to-deposit-money-on-royal-x-casino
 Allow: /how-to-withdraw-money-from-royal-x-casino
 Allow: /royal-x-casino-for-pc
 Allow: /royal-x-casino-for-ios

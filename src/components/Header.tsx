@@ -47,7 +47,7 @@ export default function Header() {
           <Link href="/how-to-login-on-royal-x-casino" className={navLinkClass(pathname, '/how-to-login-on-royal-x-casino')} aria-current={pathname === '/how-to-login-on-royal-x-casino' ? 'page' : undefined}>
             Login
           </Link>
-          <Link href="/how-to-deposit-money-from-royal-x-casino" className={navLinkClass(pathname, '/how-to-deposit-money-from-royal-x-casino')} aria-current={pathname === '/how-to-deposit-money-from-royal-x-casino' ? 'page' : undefined}>
+          <Link href="/how-to-deposit-money-on-royal-x-casino" className={navLinkClass(pathname, '/how-to-deposit-money-on-royal-x-casino')} aria-current={pathname === '/how-to-deposit-money-on-royal-x-casino' ? 'page' : undefined}>
             Deposit
           </Link>
           <Link href="/how-to-withdraw-money-from-royal-x-casino" className={navLinkClass(pathname, '/how-to-withdraw-money-from-royal-x-casino')} aria-current={pathname === '/how-to-withdraw-money-from-royal-x-casino' ? 'page' : undefined}>

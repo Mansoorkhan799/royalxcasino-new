@@ -65,7 +65,7 @@ export default function WithdrawMoneyPage() {
                 <Link href="/" className="text-accent hover:underline font-semibold">Royal X Casino</Link> is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. If you haven't already, <a href="https://royalxcasinopakistan.pk" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download Royal X Casino</a> to get started. Many players play it to earn extra income. Once you win money, the first step is to cash out your funds securely.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                New players can feel confused when they try to withdraw cash from Royal X Casino. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. Before withdrawing, make sure you have <Link href="/how-to-deposit-money-from-royal-x-casino" className="text-accent hover:underline font-semibold">deposited money in Royal X Casino</Link> to start playing and winning.
+                New players can feel confused when they try to withdraw cash from Royal X Casino. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. Before withdrawing, make sure you have <Link href="/how-to-deposit-money-on-royal-x-casino" className="text-accent hover:underline font-semibold">deposited money in Royal X Casino</Link> to start playing and winning.
               </p>
             </div>
           </div>

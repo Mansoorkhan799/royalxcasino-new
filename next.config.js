@@ -55,7 +55,12 @@ const nextConfig = {
       },
       {
         source: '/deposit-money-in-royal-x-casino',
-        destination: '/how-to-deposit-money-from-royal-x-casino',
+        destination: '/how-to-deposit-money-on-royal-x-casino',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deposit-money-from-royal-x-casino',
+        destination: '/how-to-deposit-money-on-royal-x-casino',
         permanent: true,
       },
       {
@@ -78,7 +83,7 @@ const nextConfig = {
       { source: '/download-card-rummy', destination: '/', permanent: true },
       { source: '/download-royal-x-casino', destination: '/', permanent: true },
       { source: '/card-rummy-for-pc', destination: '/royal-x-casino-for-pc', permanent: true },
-      { source: '/deposit-money-in-card-rummy', destination: '/how-to-deposit-money-from-royal-x-casino', permanent: true },
+      { source: '/deposit-money-in-card-rummy', destination: '/how-to-deposit-money-on-royal-x-casino', permanent: true },
       { source: '/withdraw-money-from-card-rummy', destination: '/how-to-withdraw-money-from-royal-x-casino', permanent: true },
       // Old blog routes → home
       { source: '/blog', destination: '/', permanent: true },

@@ -49,7 +49,7 @@ export async function GET() {
       priority: 0.85,
     },
     {
-      url: '/how-to-deposit-money-from-royal-x-casino',
+      url: '/how-to-deposit-money-on-royal-x-casino',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,

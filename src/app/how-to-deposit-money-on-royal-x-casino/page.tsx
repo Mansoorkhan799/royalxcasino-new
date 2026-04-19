@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Deposit Money in Royal X Casino? | Quick & Safe Payment Guide',
     description: 'Step-by-step guide to deposit money in Royal X Casino using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
-    url: 'https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino',
+    url: 'https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino',
     siteName: 'Royal X Casino',
     type: 'article',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: 'Learn how to deposit money in Royal X Casino using JazzCash and EasyPaisa with our complete guide.',
   },
   alternates: {
-    canonical: 'https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino',
+    canonical: 'https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino',
   },
 };
 
@@ -280,10 +280,10 @@ export default function DepositMoneyPage() {
             "@graph": [
               {
                 "@type": "Article",
-                "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino#article",
+                "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino#article",
                 "headline": "How to Deposit Money in Royal X Casino?",
                 "description": "Step-by-step guide to deposit money in Royal X Casino using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.",
-                "url": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino",
+                "url": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino",
                 "articleBody": "Royal X Casino is an exciting online game where users can play many amazing games daily. Adding funds to the Royal X Casino game is easy with JazzCash and EasyPaisa. The process: open app, click shop, select payment method (JazzCash or EasyPaisa), choose amount (Rs 200 to Rs 2000), click Add Chips, enter account number, approve payment request, then wait for funds to appear in your account.",
                 "author": { "@type": "Organization", "name": "Royal X Casino", "url": "https://royalxcasinopakistan.pk" },
                 "publisher": {
@@ -298,20 +298,20 @@ export default function DepositMoneyPage() {
                 },
                 "datePublished": "2026-01-01",
                 "dateModified": "2026-03-13",
-                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino" },
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino" },
                 "inLanguage": "en-US",
                 "hasPart": {
                   "@type": "HowTo",
-                  "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino#howto",
+                  "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino#howto",
                   "name": "Deposit Money in Royal X Casino"
                 }
               },
               {
                 "@type": "HowTo",
-                "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino#howto",
+                "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino#howto",
                 "name": "How to Deposit Money in Royal X Casino",
                 "description": "Step-by-step guide to deposit money in Royal X Casino using JazzCash and EasyPaisa",
-                "url": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino",
+                "url": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino",
                 "totalTime": "PT3M",
                 "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "200" },
                 "step": [
@@ -326,7 +326,7 @@ export default function DepositMoneyPage() {
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino#faq",
+                "@id": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino#faq",
                 "mainEntity": [
                   { "@type": "Question", "name": "How can we add money to our Royal X Casino account?", "acceptedAnswer": { "@type": "Answer", "text": "You can add money to your Royal X Casino account by opening the app, selecting the shop option, choosing a payment method and amount, confirming the deposit, and approving the payment request." } },
                   { "@type": "Question", "name": "Is adding funds to Royal X Casino secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is safe to add funds to Royal X Casino, as it uses a modern security system to protect your personal data and funds." } },
@@ -345,7 +345,7 @@ export default function DepositMoneyPage() {
             "@type": "BreadcrumbList",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://royalxcasinopakistan.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Deposit Money in Royal X Casino", "item": "https://royalxcasinopakistan.pk/how-to-deposit-money-from-royal-x-casino" }
+              { "@type": "ListItem", "position": 2, "name": "Deposit Money in Royal X Casino", "item": "https://royalxcasinopakistan.pk/how-to-deposit-money-on-royal-x-casino" }
             ]
           })
         }}

@@ -191,7 +191,7 @@ export default function RootLayout({
       >
         <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
         <Header />
-        <main className="relative z-10">
+        <main className="relative z-10 min-w-0 max-w-full overflow-x-hidden">
         {children}
         </main>
         <DeferredStyles />

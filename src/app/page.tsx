@@ -278,10 +278,10 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      {/* Hero Section */}
-      <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
-        <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
-          <div className="md:w-4/5 space-y-6">
+      {/* Hero — mobile: overflow-x-hidden; desktop: figure needs ~460px — never squeeze into w-1/5 (was clipping) */}
+      <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto min-w-0 overflow-x-hidden md:overflow-x-visible" style={{ minHeight: '400px' }}>
+        <div className="flex min-w-0 flex-col items-stretch gap-10 lg:flex-row lg:items-start lg:justify-between lg:gap-12 xl:gap-16">
+          <div className="min-w-0 flex-1 space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 <span className="text-white">Royal X Casino</span>
@@ -306,10 +306,10 @@ export default function Home() {
             <p className="text-gray-400 text-sm italic">*Available for Android devices only</p>
           </div>
 
-          {/* Hero Image with orbital badges */}
+          {/* Hero Image with orbital badges — fixed width on lg+ so 460px orbit is never clipped */}
           <figure
-            className="mt-12 md:mt-0 md:w-1/5 flex items-center justify-center"
-            style={{ minHeight: '460px', position: 'relative', width: '100%', overflow: 'visible' }}
+            className="mt-10 flex w-full max-w-full min-w-0 shrink-0 flex-col items-center justify-center lg:mt-0 lg:w-[460px] lg:max-w-[460px]"
+            style={{ position: 'relative', overflow: 'visible' }}
             itemScope
             itemType="https://schema.org/ImageObject"
           >
@@ -317,12 +317,19 @@ export default function Home() {
             <meta itemProp="description" content="Royal X Casino - Pakistan's #1 real money gaming app. Play Aviator, Teen Patti, Crash, Mines. Download Royal X Casino APK for Android." />
             <meta itemProp="url" content="https://royalxcasinopakistan.pk/royal-x-casino-pakistan.webp" />
 
+            <div className="relative mx-auto h-[min(92vw,332px)] w-[min(92vw,332px)] shrink-0 md:h-[460px] md:w-[460px]">
+              <div
+                className="absolute left-1/2 top-1/2 flex items-center justify-center -translate-x-1/2 -translate-y-1/2 scale-[0.72] md:relative md:left-auto md:top-auto md:translate-x-0 md:translate-y-0 md:scale-100"
+                style={{ width: '460px', height: '460px' }}
+              >
             {/* Radial glow behind image */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none" aria-hidden="true">
-              <div style={{
-                width: '340px', height: '340px', borderRadius: '50%',
-                background: 'radial-gradient(circle, rgba(255,193,7,0.2) 0%, rgba(255,193,7,0.06) 50%, transparent 72%)',
-              }} />
+              <div
+                className="h-[240px] w-[240px] rounded-full md:h-[340px] md:w-[340px]"
+                style={{
+                  background: 'radial-gradient(circle, rgba(255,193,7,0.2) 0%, rgba(255,193,7,0.06) 50%, transparent 72%)',
+                }}
+              />
             </div>
 
             {/* Circular image — z-index 10, orbit badges z-index 20 so they always show */}
@@ -332,12 +339,12 @@ export default function Home() {
               title="Royal X Casino – Download & Play Aviator, Teen Patti, Crash, Mines"
               width={320}
               height={320}
-              className="object-cover rounded-full"
-              style={{ width: '260px', height: '260px', border: '3px solid rgba(255,193,7,0.4)', boxShadow: '0 0 40px rgba(255,193,7,0.2)', position: 'relative', zIndex: 10, flexShrink: 0 }}
+              className="object-cover rounded-full !w-[200px] !h-[200px] md:!w-[260px] md:!h-[260px]"
+              style={{ border: '3px solid rgba(255,193,7,0.4)', boxShadow: '0 0 40px rgba(255,193,7,0.2)', position: 'relative', zIndex: 10, flexShrink: 0 }}
               priority={true}
               fetchPriority="high"
               quality={90}
-              sizes="(max-width: 768px) 260px, 320px"
+              sizes="(max-width: 768px) 200px, 260px"
               itemProp="image"
             />
 
@@ -422,6 +429,8 @@ export default function Home() {
                     <div className="orbit-badge-label">Secure</div>
                   </div>
                 </div>
+              </div>
+            </div>
               </div>
             </div>
 

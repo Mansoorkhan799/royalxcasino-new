@@ -127,7 +127,7 @@ export default function LoginPage() {
             the app.
           </p>
 
-          <h3 className="text-2xl font-bold text-[#FFA500]">Royal X Casino Login - Step by Step Guide</h3>
+          <h3 className="text-2xl font-bold text-[#FFA500]">Royal X Casino Login –– Step by Step Guide</h3>
           <p>
             So now we will be discussing some of the very easy steps following which you guys can login at the app
             easily:

@@ -117,6 +117,18 @@ export async function GET() {
       changeFreq: 'yearly',
       priority: 0.6,
     },
+    {
+      url: '/is-royal-x-casino-safe-and-legal',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: '/tips-to-win-big-royal-x-casino',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.8,
+    },
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

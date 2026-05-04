@@ -84,7 +84,8 @@ export default function RegisterPage() {
           </p>
           <div className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto text-left space-y-4">
             <p>
-              Royal X Casino Register is one of the leading online gaming app where users can earn real money and play their favourite games. To start your gameplay journey you need to have an account first. So, Royal X Casino Register process is going to be a very smooth and easy one. There are so many user who do face so many issues that how to register or sign up, but here it is going to be a very simple one.
+              <Link href="/" className="text-accent hover:underline font-semibold">Royal X Casino</Link> Register is one of the leading online gaming app where users can earn real money and play their favourite games. To start your gameplay journey you need to have an account first. So, Royal X Casino Register process is going to be a very smooth and easy one. There are so many user who do face so many issues that how to register or sign up, but here it is going to be a very simple one. Already have an account? See our{' '}
+              <Link href="/how-to-login-on-royal-x-casino" className="text-accent hover:underline font-semibold">how to login on Royal X Casino</Link> guide.
             </p>
             <p>
               So now we are going to know the whole procedure of registration at Royal X Casino in steps so that your gameplay journey here becomes beginner friendly.
@@ -117,7 +118,9 @@ export default function RegisterPage() {
               <li>You can have access to all the games in the library</li>
               <li>You can claim for the welcome bonus</li>
               <li>Unlock all the features inside the app</li>
-              <li>Withdraw your earnings anytime</li>
+              <li>
+                <Link href="/how-to-withdraw-money-from-royal-x-casino" className="text-accent hover:underline font-semibold">Withdraw your earnings</Link> anytime
+              </li>
             </ul>
           </div>
         </div>
@@ -136,7 +139,20 @@ export default function RegisterPage() {
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold text-[#FFA500] mb-3">• Open the Official App</h3>
               <p className="text-gray-300">
-                First you must get the Royal X Casino App from its own official website where you can get its authentic setup. Just make sure you are getting the app from a trusted source if you plan to get it outside the official site.
+                First you must get the Royal X Casino App from its own{' '}
+                <a
+                  href="https://royalxcasinopakistan.pk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent hover:underline font-semibold"
+                >
+                  official website
+                </a>{' '}
+                where you can get its authentic setup. For device-specific help, read{' '}
+                <Link href="/royal-x-casino-for-ios" className="text-accent hover:underline font-semibold">Royal X Casino for iOS</Link>
+                {' '}or{' '}
+                <Link href="/royal-x-casino-for-pc" className="text-accent hover:underline font-semibold">Royal X Casino for PC</Link>
+                . Just make sure you are getting the app from a trusted source if you plan to get it outside the official site.
               </p>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
@@ -185,7 +201,9 @@ export default function RegisterPage() {
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#22c55e]">
               <h3 className="text-xl font-bold text-[#22c55e] mb-3">• Complete the Registration Process</h3>
               <p className="text-gray-300">
-                So now when you will get the OTP and complete the procedure then next step is to Submit this information so you will be done with the Royal X Casino Register process. Go use your username and password to sign into this app,
+                So now when you will get the OTP and complete the procedure then next step is to Submit this information so you will be done with the Royal X Casino Register process. Go use your username and password to{' '}
+                <Link href="/how-to-login-on-royal-x-casino" className="text-accent hover:underline font-semibold">sign in to Royal X Casino</Link>
+                .
               </p>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#eab308]">
@@ -194,7 +212,11 @@ export default function RegisterPage() {
               <ul className="text-gray-300 space-y-1 pl-4">
                 <li>▪ Go and check what games are here</li>
                 <li>▪ Play the games and claim for the bonuses</li>
-                <li>▪ You can deposit your credits and get the bonus too</li>
+                <li>
+                  ▪ You can{' '}
+                  <Link href="/how-to-deposit-money-on-royal-x-casino" className="text-accent hover:underline font-semibold">deposit money on Royal X Casino</Link>
+                  {' '}and get the bonus too
+                </li>
               </ul>
             </div>
           </div>
@@ -265,9 +287,20 @@ export default function RegisterPage() {
           </p>
           <ul className="list-disc pl-6 text-gray-300 space-y-2 leading-relaxed">
             <li>Launch the app</li>
-            <li>Log into it now</li>
+            <li>
+              <Link href="/how-to-login-on-royal-x-casino" className="text-accent hover:underline font-semibold">Log in</Link> to your account
+            </li>
             <li>And just quickly claim for the welcome bonus</li>
-            <li>Now credit deposit is very important to play the games</li>
+            <li>
+              Now{' '}
+              <Link href="/how-to-deposit-money-on-royal-x-casino" className="text-accent hover:underline font-semibold">adding a deposit</Link>
+              {' '}is very important to play the games
+            </li>
+            <li>
+              When you win, use our{' '}
+              <Link href="/how-to-withdraw-money-from-royal-x-casino" className="text-accent hover:underline font-semibold">withdrawal guide</Link>
+              {' '}to cash out safely
+            </li>
             <li>Then place the bet and kickstart your gameplay journey here</li>
           </ul>
         </div>
@@ -281,16 +314,56 @@ export default function RegisterPage() {
               Royal X Casino Register process is one of the most simple and quick designed for the users by keeping in mind that not everyone is a casual player. So, this makes the gameplay journey smooth and seamless. And within 1-2 minutes you will be done with your account registration.
             </p>
             <p>
-              So, if you are planning to start your gameplay journey then just make sure to make an account first and then you will be able to unlock all the games, bonuses and features. Allowing everyone to start making real money.
+              So, if you are planning to start your gameplay journey then just make sure to make an account first and then you will be able to unlock all the games, bonuses and features. Allowing everyone to start making real money. Next, learn{' '}
+              <Link href="/how-to-login-on-royal-x-casino" className="text-accent hover:underline font-semibold">how to login</Link>
+              ,{' '}
+              <Link href="/how-to-deposit-money-on-royal-x-casino" className="text-accent hover:underline font-semibold">how to deposit</Link>
+              , and{' '}
+              <Link href="/how-to-withdraw-money-from-royal-x-casino" className="text-accent hover:underline font-semibold">how to withdraw</Link>
+              {' '}on Royal X Casino.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="pt-6 pb-4 px-4 md:px-8 max-w-7xl mx-auto text-center">
-        <Link href="/" className="text-[#0ea5e9] hover:text-[#6366f1] font-medium transition-colors">
-          ← Back to Home
-        </Link>
+      <section className="pt-6 pb-10 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="max-w-3xl mx-auto rounded-xl border border-gray-800 bg-secondary/80 p-6 text-center">
+          <p className="text-sm font-semibold text-[#FFA500] mb-3">Related guides</p>
+          <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
+            <Link href="/how-to-login-on-royal-x-casino" className="text-accent hover:underline">
+              Login
+            </Link>
+            <span className="text-gray-600" aria-hidden>
+              ·
+            </span>
+            <Link href="/how-to-deposit-money-on-royal-x-casino" className="text-accent hover:underline">
+              Deposit
+            </Link>
+            <span className="text-gray-600" aria-hidden>
+              ·
+            </span>
+            <Link href="/how-to-withdraw-money-from-royal-x-casino" className="text-accent hover:underline">
+              Withdraw
+            </Link>
+            <span className="text-gray-600" aria-hidden>
+              ·
+            </span>
+            <Link href="/about-us-royal-x-casino-pakistan" className="text-accent hover:underline">
+              About us
+            </Link>
+            <span className="text-gray-600" aria-hidden>
+              ·
+            </span>
+            <Link href="/contact-us-royal-x-casino-pakistan" className="text-accent hover:underline">
+              Contact
+            </Link>
+          </nav>
+        </div>
+        <p className="text-center mt-8">
+          <Link href="/" className="text-[#0ea5e9] hover:text-[#6366f1] font-medium transition-colors">
+            ← Back to Home
+          </Link>
+        </p>
       </section>
     </article>
   );

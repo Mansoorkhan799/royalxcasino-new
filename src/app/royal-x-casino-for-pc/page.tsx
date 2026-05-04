@@ -1,20 +1,18 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
 import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
-  title: 'Royal X Casino for PC Download Latest Version Free 2026',
-  description: 'Download Royal X Casino for PC using Android Emulator. Play Teen Patti, Rummy, Dragon Tiger on bigger screen. Better performance and smooth gameplay on Windows.',
+  title: 'Royal X Casino for PC | Complete Guide Desktop & Laptop 2026',
+  description:
+    'Royal X Casino for PC: play on a bigger screen via browser or Android emulator. Installation, system requirements, troubleshooting, and security tips.',
   keywords: [
     'Royal X Casino for PC',
-    'Royal X Casino PC download',
-    'Royal X Casino Windows',
-    'Teen Patti PC',
-    'Card games for PC',
-    'BlueStacks Royal X Casino',
-    'Android Emulator card games'
+    'Royal X Casino PC',
+    'Royal X Casino desktop',
+    'Royal X Casino BlueStacks',
+    'Royal X Casino emulator',
   ],
   robots: {
     index: true,
@@ -27,61 +25,36 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://royalxcasinopakistan.pk/royal-x-casino-for-pc",
+    canonical: 'https://royalxcasinopakistan.pk/royal-x-casino-for-pc',
   },
   openGraph: {
-    title: 'Royal X Casino for PC Download Latest Version Free 2026',
-    description: 'Download Royal X Casino for PC using Android Emulator. Play on bigger screen with better performance.',
-    url: "https://royalxcasinopakistan.pk/royal-x-casino-for-pc",
-    siteName: "Royal X Casino",
-    locale: "en_US",
-    type: "website",
+    title: 'Royal X Casino for PC | Complete Guide Desktop & Laptop',
+    description:
+      'How to use Royal X Casino on PC: browser play or emulator, benefits, requirements, and tips.',
+    url: 'https://royalxcasinopakistan.pk/royal-x-casino-for-pc',
+    siteName: 'Royal X Casino',
+    locale: 'en_US',
+    type: 'website',
   },
 };
 
 export default function RoyalXCasinoForPCPage() {
-  // Schema.org structured data for PC version page
   const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "headline": "Royal X Casino for PC Download Latest Version Free 2026",
-    "description": "Complete guide to download and play Royal X Casino on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://royalxcasinopakistan.pk/royal-x-casino-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Royal X Casino",
-      "url": "https://royalxcasinopakistan.pk"
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Royal X Casino for PC',
+    description:
+      'Complete guide to Royal X Casino on desktop and laptop: browser and emulator methods, benefits, system requirements, and security.',
+    url: 'https://royalxcasinopakistan.pk/royal-x-casino-for-pc',
+    author: {
+      '@type': 'Organization',
+      name: 'Royal X Casino',
+      url: 'https://royalxcasinopakistan.pk',
     },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Royal X Casino",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://royalxcasinopakistan.pk/royal-x-casino-logo.webp",
-        ...imageObjectLicensing,
-        "creditText": "Royal X Casino logo"
-      }
-    },
-    "datePublished": "2026-01-03",
-    "dateModified": "2026-01-03",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://royalxcasinopakistan.pk/royal-x-casino-for-pc"
-    },
-    "about": {
-      "@type": "SoftwareApplication",
-      "name": "Royal X Casino",
-      "operatingSystem": "Windows 7 or higher",
-      "applicationCategory": "GameApplication"
-    },
-    "articleSection": "Gaming",
-    "keywords": "Royal X Casino for PC, Royal X Casino PC download, BlueStacks, Android Emulator, Teen Patti PC",
-    "inLanguage": "en-US"
   };
 
   return (
     <article>
-      {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -90,365 +63,267 @@ export default function RoyalXCasinoForPCPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://royalxcasinopakistan.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Royal X Casino for PC", "item": "https://royalxcasinopakistan.pk/royal-x-casino-for-pc" }
-            ]
-          })
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://royalxcasinopakistan.pk' },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Royal X Casino for PC',
+                item: 'https://royalxcasinopakistan.pk/royal-x-casino-for-pc',
+              },
+            ],
+          }),
         }}
       />
-      
-      {/* Hero Section */}
+
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-[#FFA500]">Royal X Casino for PC</span>
-            <br />
-            <span className="text-white">Download Latest Version</span>
+        <div className="text-center mb-10">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+            <span className="text-white">Royal X Casino for </span>
+            <span className="text-[#FFA500]">PC</span>
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">
-            Free 2026
+          <p className="text-lg md:text-xl text-[#FFA500] font-semibold mb-6">
+            Complete Guide | Desktop &amp; Laptop
+          </p>
+        </div>
+
+        <div className="flex justify-center mb-10">
+          <Image
+            src="/royal-x-casino.webp"
+            alt="Royal X Casino for PC"
+            width={200}
+            height={200}
+            className="object-contain drop-shadow-2xl"
+            priority={true}
+          />
+        </div>
+
+        <div className="flex justify-center my-8">
+          <DownloadButton />
+        </div>
+      </section>
+
+      <section className="py-6 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8 space-y-8 text-gray-300 leading-relaxed">
+          <p>
+            If you love to play the online games on bigger screen, then Royal X Casino for PC is going to be the best
+            option for you guys. This is how the gameplay becomes much more thrilling and exciting with better visuals,
+            you can just smoothly have control over everything and its going to be very interesting seeing things on
+            much wider screens. More like a realistic gaming world it would be.
+          </p>
+          <p>
+            Here we will be going to know how the users will get the Royal X Casino on PC, its complete installation
+            and some useful tips for much better performance.
+          </p>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">What is Royal X Casino for PC?</h2>
+          <p>
+            Without any kind of restrictions Royal X Casino for PC will allow its users to have this app on their
+            desktops or PC screens. There are so many online gaming apps for mobile users, but we rarely have apps like
+            Royal X Casino for your computers and PC which you can use through any good emulator. Even using a good
+            browser, you can just use the app on them too.
+          </p>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">How to Use Royal X Casino for PC?</h2>
+          <p>Here we will be knowing two of the best methods of Royal X Casino for PC, which are:</p>
+
+          <h3 className="text-xl font-bold text-white">
+            Procedure 1 Play the Games through a Web Browser (highly recommended)
+          </h3>
+          <p>One of the simplest and easiest way to get the app on your bigger screens:</p>
+          <ul className="list-disc pl-6 space-y-4">
+            <li>
+              <span className="text-white font-semibold">Just Launch your Browser</span>
+              <p className="mt-1">
+                Just open the Google Chrome, Microsoft Edge or other latest browser on your PC first.
+              </p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Visit its Official Website</span>
+              <p className="mt-1">
+                Then go and open the{' '}
+                <Link href="/" className="text-accent hover:underline font-semibold">
+                  Royal X Casino
+                </Link>{' '}
+                official website.
+              </p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Login or Register</span>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>If you are new to this platform, then just complete the registration process first.</li>
+                <li>If you already have an account here, then just simply log into it using your account.</li>
+              </ul>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Go Play the Game</span>
+              <p className="mt-1">
+                When you will log in successfully then you can just have access to the game lobby, and then just enjoy
+                everything that is present at the dashboard directly from your PC.
+              </p>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>Here you don&apos;t need to download the app.</li>
+                <li>It works very quickly and faster.</li>
+                <li>Its the most secure and convenient way of using the platform.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3 className="text-xl font-bold text-white">Procedure 2 Just Use any Android Emulator</h3>
+          <p>If you want to use the mobile app on your PC, then you must have to use any good emulator:</p>
+          <ul className="list-disc pl-6 space-y-4">
+            <li>
+              <span className="text-white font-semibold">Just Go and Install Emulator</span>
+              <p className="mt-1">
+                You must have to download and then install any good emulator like the NoxPlayer or the BlueStacks are
+                the best one.
+              </p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Download the APK File</span>
+              <p className="mt-1">
+                Just use any trusted source or go to the official website to get the Royal X Casino APK.
+              </p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Then Install App</span>
+              <p className="mt-1">Now open your emulator first and then install the APK file next.</p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Register, Login and Play</span>
+              <p className="mt-1">
+                Here you are now just launching your gaming app, sign up, login and then kickstart your gameplay journey
+                on a wider screen.
+              </p>
+            </li>
+          </ul>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">
+            What are the Benefits of Playing Royal X Casino for PC?
           </h2>
-          <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            The <Link href="/" className="text-accent hover:underline font-semibold">Royal X Casino</Link> app is a popular platform where you can enjoy playing card games anytime. <a href="https://royalxcasinopakistan.pk" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Royal X Casino</a> to get started on mobile, or follow this guide to play on PC. The games offer a wide range of games like Classic Teen Patti, Andar Bahar, Dragon Tiger, Rummy, poker, and other mini games you can play to earn real cash. The game also provides daily bonuses to boost your balance.
+          <p>There are so many perks of using Royal X Casino for PC:</p>
+          <ul className="list-disc pl-6 space-y-4">
+            <li>
+              <span className="text-white font-semibold">Easy Control</span>
+              <p className="mt-1">
+                While using the app on the smaller screens with touch pad is very difficult and frustrating, but here at
+                your PC you can use a mouse along with a keyboard, so its going to be way easier for you.
+              </p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Wider Screen Experience</span>
+              <p className="mt-1">On bigger screen everything will seem live, appealing clear visuals and more visibility.</p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Seamless and Smooth Control</span>
+              <p className="mt-1">
+                On PC you will experience more swift and faster processing of games with less crashing or lagging issues.
+              </p>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Multi-Task Options</span>
+              <p className="mt-1">
+                Here you can open so many windows at once that mean playing game, doing some search on the browser and
+                enjoying some music in the background
+              </p>
+            </li>
+          </ul>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">
+            What are the System Requirements for Royal X Casino for PC?
+          </h2>
+          <p>To have a seamless and smooth gameplay experience on PC you must have:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>The Windows 7 or latest one</li>
+            <li>Minimum 4GB RAM</li>
+            <li>Fast and stable internet connection</li>
+            <li>Just keep updating the browser or your emulator</li>
+          </ul>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">What are the Common Issues and their Solutions?</h2>
+          <p>Here we will know some of the common problems and their solutions for the users:</p>
+          <ul className="list-disc pl-6 space-y-4">
+            <li>
+              <span className="text-white font-semibold">Issues while Loading the Website</span>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>If the website is not opening, then it means maybe your internet connection is not stable.</li>
+                <li>Just go to your app settings and then clear the browser cache.</li>
+              </ul>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Sign In Issues</span>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>Just make sure you have entered the right credentials.</li>
+                <li>In case if you are unable to login just change your password.</li>
+              </ul>
+            </li>
+            <li>
+              <span className="text-white font-semibold">Emulator Lagging Problems</span>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>Just close all the unwanted background apps.</li>
+                <li>Maybe your device has a low RAM so upgrade it.</li>
+                <li>Also, you can maximise the RAM allocation inside the settings of emulator.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">
+            Tricks for Best Experience of Royal X Casino for PC
+          </h2>
+          <p>
+            To have best time at Royal X Casino while using that on your PC without any kind of interruptions, you must:
           </p>
-        </div>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Just update your browser every time.</li>
+            <li>The internet connection must be stable and faster.</li>
+            <li>There must be a good antivirus protection on your device.</li>
+            <li>Just make sure you have got the app from a trusted source.</li>
+          </ul>
 
-        {/* Logo Display */}
-        <div className="flex justify-center mb-12">
-          <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-            <Image
-              src="/royal-x-casino.webp"
-              alt="Royal X Casino for PC – Play on Windows with Android Emulator"
-              title="Royal X Casino for PC – Download & Play on Windows"
-              width={320}
-              height={320}
-              className="object-contain drop-shadow-2xl"
-              priority={true}
-            />
-          </div>
-        </div>
-      </section>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">Is Royal X Casino for PC Secure?</h2>
+          <p>
+            Of course, Royal X Casino for PC is a very secure if you have used its own official site or any other trusted
+            source. Never ever get the app from any third party which will contain some viruses and harmful stuff.
+          </p>
+          <p>Just keep these tips in mind:</p>
+          <ul className="space-y-2">
+            <li className="flex gap-2">
+              <span className="text-[#4ade80]">✓</span>
+              <span>Never share your login details with anyone.</span>
+            </li>
+            <li className="flex gap-2">
+              <span className="text-[#4ade80]">✓</span>
+              <span>Enable the two-factor authentication.</span>
+            </li>
+            <li className="flex gap-2">
+              <span className="text-[#4ade80]">✓</span>
+              <span>Use a good and strong password.</span>
+            </li>
+          </ul>
 
-      {/* Download Info Table */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500] text-center">Download Info Table</h2>
-        <div className="overflow-hidden rounded-2xl shadow-2xl border border-gray-800 max-w-3xl mx-auto">
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800">
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
-                  <td className="py-4 px-6 text-left text-white">Royal X Casino</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Category</td>
-                  <td className="py-4 px-6 text-left text-white">Cards, Game</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Size</td>
-                  <td className="py-4 px-6 text-left text-white">49MB</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.230</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">Today</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
-                  <td className="py-4 px-6 text-left text-white">600k+</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Language</td>
-                  <td className="py-4 px-6 text-left text-white">English, Urdu</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Price</td>
-                  <td className="py-4 px-6 text-left text-white">Free (0$)</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      {/* What is Royal X Casino Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is Royal X Casino?</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              The Royal X Casino app is available as an APK and widely used on Android devices. You can download the app on your PC for better features. This platform aims to make the experience more engaging so you never get bored. The official app is not available on PC, so you can use an Android Emulator to run the app on Windows and enjoy the game on a bigger screen.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Features Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Key Features of using Royal X Casino on PC</h2>
-          <p className="text-gray-300 mb-8">Using Royal X Casino on PC offers several advantages over mobile devices. The following are the key features:</p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#FFA500]">
-              <h3 className="text-xl font-bold text-[#FFA500] mb-3">🖥️ Large Screen</h3>
-              <p className="text-gray-300">Playing Royal X Casino games on a larger screen gives you a better, easier-to-view experience.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#4ade80]">
-              <h3 className="text-xl font-bold text-[#4ade80] mb-3">⚡ Better Performance</h3>
-              <p className="text-gray-300">PCs offer better processing power, reducing crashes.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#60a5fa]">
-              <h3 className="text-xl font-bold text-[#60a5fa] mb-3">🎮 Smooth Gameplay</h3>
-              <p className="text-gray-300">More precise and comfortable gameplay with a mouse and keyboard compared to mobile devices.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#f97316]">
-              <h3 className="text-xl font-bold text-[#f97316] mb-3">🔄 Multitasking Support</h3>
-              <p className="text-gray-300">On PC, you can play games while running other apps. So, Royal X Casino on PC offers multitasking support.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Download Instructions */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Download the latest version of Royal X Casino on PC?</h2>
-          <p className="text-gray-300 mb-6">Here is the step-by-step process you can follow to download Royal X Casino on PC:</p>
-          
-          <div className="space-y-4">
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 1:</h3>
-              <p className="text-gray-300">First, find the official website of Royal X Casino, like <Link href="/" className="text-[#0ea5e9] hover:underline">www.royalxcasinopakistan.pk</Link>.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 2:</h3>
-              <p className="text-gray-300">Install an Android Emulator on your device.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 3:</h3>
-              <p className="text-gray-300">Download the latest version of Royal X Casino.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#a855f7]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 4:</h3>
-              <p className="text-gray-300">Open the Emulator and locate the install APK option.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 5:</h3>
-              <p className="text-gray-300">Once installed, register or log in to the app and start playing.</p>
-            </div>
-          </div>
-
-          {/* Download Button */}
-          <div className="flex justify-center mt-10">
-            <DownloadButton />
-          </div>
-        </div>
-      </section>
-
-      {/* Top Emulators Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Top Emulators to Run Royal X Casino on PC</h2>
-          <p className="text-gray-300 mb-8">You can use different emulators to run or install Royal X Casino on PC:</p>
-          
-          <div className="space-y-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-white mb-3">💎 BlueStacks Emulator</h3>
-              <p className="text-gray-300">BlueStacks is the most popular emulator, giving you high performance and a beginner-friendly interface.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-white mb-3">⚡ LD Player</h3>
-              <p className="text-gray-300">Lightweight and fast. Best for low-end devices.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-white mb-3">🎯 Nox Player</h3>
-              <p className="text-gray-300">Easy installation and good compatibility with card games.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* System Requirements */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">System Requirements to run Royal X Casino on PC</h2>
-          <p className="text-gray-300 mb-8">For running Royal X Casino smoothly on PC using an Android emulator, here are the device requirements you need:</p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Minimum Requirements */}
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-[#FFA500] mb-4">Minimum Requirements:</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-[#FFA500] mr-2">•</span>
-                  <span><strong>Operating System:</strong> Windows 7 or higher</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#FFA500] mr-2">•</span>
-                  <span><strong>Processor:</strong> Intel, AMD Dual Core</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#FFA500] mr-2">•</span>
-                  <span><strong>RAM:</strong> at least 4 GB RAM required</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#FFA500] mr-2">•</span>
-                  <span><strong>Storage:</strong> 5GB free space</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Recommended Requirements */}
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-2xl font-bold text-[#4ade80] mb-4">Recommended Requirements:</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-[#4ade80] mr-2">•</span>
-                  <span><strong>Operating System:</strong> Windows 10 or 11</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#4ade80] mr-2">•</span>
-                  <span><strong>Processor:</strong> Core i5 or higher</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#4ade80] mr-2">•</span>
-                  <span><strong>RAM:</strong> 8GB RAM for smooth gameplay</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#4ade80] mr-2">•</span>
-                  <span><strong>Storage:</strong> SSD storage for best performance</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pros and Cons */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Pros and Cons of Using Royal X Casino PC</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4 text-[#4ade80]">Pros:</h3>
-              <div className="bg-[#0A1029] p-6 rounded-lg">
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-[#4ade80] mr-2">✓</span>
-                    <span>Gives better UI on a large screen</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#4ade80] mr-2">✓</span>
-                    <span>No battery limitations</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#4ade80] mr-2">✓</span>
-                    <span>You can multitask</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#4ade80] mr-2">✓</span>
-                    <span>Ideal for longer gaming sessions</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold mb-4 text-[#f87171]">Cons:</h3>
-              <div className="bg-[#0A1029] p-6 rounded-lg">
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-[#f87171] mr-2">✗</span>
-                    <span>Requires Emulator installation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#f87171] mr-2">✗</span>
-                    <span>Security risk if downloaded from unknown sources</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Conclusion */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Conclusion</h2>
-          <p className="text-gray-300 leading-relaxed">
-            If you want better performance and a high-quality user interface, you can use Royal X Casino on PC. Emulator setup can be confusing for beginners, but once installed, you can enjoy a better experience. Using the Royal X Casino apk on PC gives you a larger screen and smooth control over gameplay with fewer interruptions.
+          <h2 className="text-2xl md:text-3xl font-bold text-[#FFA500]">Conclusion</h2>
+          <p>
+            As Royal X Casino for PC is going to be the best experience of using the app on your bigger screens which
+            means better performance, highlighted visible visuals, smooth gameplay environment and it gives a live vibe.
+            Either, you go with the emulator method or just use the app through the browser, all that going to matter is
+            you will get to see things on a bigger screen this time.
+          </p>
+          <p>
+            So, if you really want to enjoy the casino and betting games more comfortably then go and experience Royal X
+            Casino on your laptops or desktops. Its going to be the perfect combination for you.
+          </p>
+          <p>
+            Need help signing in? See our{' '}
+            <Link href="/how-to-login-on-royal-x-casino" className="text-accent hover:underline font-semibold">
+              Royal X Casino login
+            </Link>{' '}
+            guide.
           </p>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
-          <div className="space-y-4">
-            <details className="group bg-[#0a1029]/50 rounded-xl">
-              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                Is an emulator safe to use on a PC?
-                <span className="transition group-open:rotate-180">
-                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="p-4 pt-0 text-gray-300">
-                Yes, Emulators are generally safe if you download them from official websites. Make sure to download BlueStacks, LD Player, or Nox Player from their official sources to avoid security risks.
-              </div>
-            </details>
-
-            <details className="group bg-[#0a1029]/50 rounded-xl">
-              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                Why is the APK not installed on my device?
-                <span className="transition group-open:rotate-180">
-                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="p-4 pt-0 text-gray-300">
-                If the APK is not installing, make sure your emulator is properly configured and has enough storage space. Also, ensure you have downloaded the latest version of Royal X Casino APK from the official source and that your emulator supports Android 5.0 or higher.
-              </div>
-            </details>
-
-            <details className="group bg-[#0a1029]/50 rounded-xl">
-              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                Which emulator is best for Royal X Casino?
-                <span className="transition group-open:rotate-180">
-                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="p-4 pt-0 text-gray-300">
-                BlueStacks is the most recommended emulator for Royal X Casino due to its high performance, user-friendly interface, and excellent compatibility. However, if you have a low-end PC, LD Player is a great lightweight alternative that still offers smooth gameplay.
-              </div>
-            </details>
-          </div>
-        </div>
-      </section>
-
-      {/* Back to Home */}
       <section className="pt-6 pb-4 px-4 md:px-8 max-w-7xl mx-auto text-center">
         <Link href="/" className="text-[#0ea5e9] hover:text-[#6366f1] font-medium transition-colors">
           ← Back to Home
@@ -457,4 +332,3 @@ export default function RoyalXCasinoForPCPage() {
     </article>
   );
 }
-

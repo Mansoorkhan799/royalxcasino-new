@@ -78,6 +78,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/is-royal-x-casino-safe-and-legal" className="text-gray-300 hover:text-accent transition-colors">
+                  Safe &amp; Legal Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/tips-to-win-big-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
+                  Tips to Win Big
+                </Link>
+              </li>
+              <li>
                 <Link href="/how-to-register-on-royal-x-casino" className="text-gray-300 hover:text-accent transition-colors">
                   Create Account
                 </Link>
